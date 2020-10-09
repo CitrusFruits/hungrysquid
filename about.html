@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Hungry Squid</title>
+    <style>
+      body {
+        background: #acb5ff;
+      }
+      .game {
+        margin: 48px auto;
+        width: 1138px;
+        border: 2px solid #10185a;
+      }
+      .what-is-this {
+        margin: auto;
+        width: 100%;
+		max-width: 800px;
+        text-align: left;
+        font-family: monospace;
+		font-size: 20px;
+      }
+    </style>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/HungrySquid-Web.json");
+    </script>
+  </head>
+  <body>
+    <div class="what-is-this">
+		<h1>About</h1>
+		<p>
+			Hungry Squid is a hackathon project developed at <a href="https://skuid.com">Skuid</a>, originally designed to be an easter egg in the product. Since the game never made its way into the product itself, I have made it available here for anyone and everyone to enjoy.
+		</p>
+		<p>
+			The game itself is a play on Skuid's product. In Skuid the product, dragging and dropping are a big part of the product, so I chose to make it a big part of the gameplay in Hungry Squid. The taco isn't of any particular significance, but hey, who doesn't like tacos?
+		</p>
+		<p>The squid, taco, and fire sprites were generously made by Tyrick Christian. The graphical tiling patterns were adapted from some open source images found online, and I apologize for not remembering where they were from or who made them. The gameplay design and development was done by me, Andrew Duensing.</p>
+	</div>
+  </body>
+</html>

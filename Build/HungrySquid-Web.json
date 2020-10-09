@@ -1,0 +1,13 @@
+{
+"companyName": "Skuid",
+"productName": "Hungry Squid",
+"dataUrl": "HungrySquid-Web.data.unityweb",
+"wasmCodeUrl": "HungrySquid-Web.wasm.code.unityweb",
+"wasmFrameworkUrl": "HungrySquid-Web.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#080D41",
+"cacheControl": {"default": "must-revalidate"}
+}

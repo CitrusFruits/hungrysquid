@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Hungry Squid</title>
+    <style>
+      body {
+        background: #acb5ff;
+      }
+      .game {
+        margin: 48px auto;
+        width: 1138px;
+        border: 2px solid #10185a;
+      }
+      .what-is-this {
+        margin: auto;
+        width: 1138px;
+        text-align: right;
+        font-family: monospace;
+        font-size: 20px;
+      }
+    </style>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/HungrySquid-Web.json");
+    </script>
+  </head>
+  <body>
+    <div class="game">
+      <div id="gameContainer" style="width: 1138px; height: 640px; margin: auto"></div>
+    </div>
+    <div class="what-is-this"><a href="/about.html">About</a></div>
+  </body>
+</html>
